@@ -1,0 +1,12 @@
+Source: ros-indigo-minas-control
+Section: misc
+Priority: extra
+Maintainer: Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-controller-manager, ros-indigo-diagnostic-updater, ros-indigo-ethercat-manager, ros-indigo-hardware-interface, ros-indigo-joint-limits-interface, ros-indigo-roslaunch, ros-indigo-rostest, ros-indigo-sensor-msgs, ros-indigo-soem, ros-indigo-trajectory-msgs, ros-indigo-transmission-interface
+Homepage: http://ros.org/wiki/minas_control
+Standards-Version: 3.9.2
+
+Package: ros-indigo-minas-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-controller-manager, ros-indigo-diagnostic-updater, ros-indigo-ethercat-manager, ros-indigo-hardware-interface, ros-indigo-joint-limits-interface, ros-indigo-sensor-msgs, ros-indigo-trajectory-msgs, ros-indigo-transmission-interface
+Description: This package contains ros_control based robot controller for PANASONIC MINAS EtherCAT Motor Driver Control System
