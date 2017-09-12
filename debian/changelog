@@ -1,0 +1,81 @@
+ros-indigo-tra1-description (1.0.5-0trusty) trusty; urgency=high
+
+
+
+ -- Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>  Mon, 11 Sep 2017 15:00:00 -0000
+
+ros-indigo-tra1-description (1.0.4-0trusty) trusty; urgency=high
+
+  * set license as GPLv2/CC-BY-SA,add LICENSE for meshes (#55 <https://github.com/tork-a/minas/issues/55>)
+    * set license as GPLv2/CC-BY-SA,add LICENSE for meshes
+    * cleanup code
+    * fix wrong license data, add LICENSE information to xacro files
+    * cleanup package.xml
+  * Contributors: Ryosuke Tajima, Tokyo Opensource Robotics Developer 534
+
+ -- Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>  Sun, 10 Sep 2017 15:00:00 -0000
+
+ros-indigo-tra1-description (1.0.3-0trusty) trusty; urgency=high
+
+
+
+ -- Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>  Thu, 03 Aug 2017 15:00:00 -0000
+
+ros-indigo-tra1-description (1.0.2-0trusty) trusty; urgency=high
+
+
+
+ -- Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>  Thu, 11 May 2017 15:00:00 -0000
+
+ros-indigo-tra1-description (1.0.1-0trusty) trusty; urgency=high
+
+
+
+ -- Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>  Thu, 11 May 2017 15:00:00 -0000
+
+ros-indigo-tra1-description (1.0.0-0trusty) trusty; urgency=high
+
+  * add test codes (`#39 <https://github.com/tork-a/minas/pull/39`_)
+    * tra1_description/package.xml: add more run_depends
+  * Contributors: Tokyo Opensource Robotics Developer 534
+
+ -- Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>  Fri, 21 Apr 2017 15:00:00 -0000
+
+ros-indigo-tra1-description (0.5.2-0trusty) trusty; urgency=high
+
+
+
+ -- Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>  Fri, 31 Mar 2017 15:00:00 -0000
+
+ros-indigo-tra1-description (0.5.1-0trusty) trusty; urgency=high
+
+  * Reduce meshes size using meshlab
+  * Contributors: Tokyo Opensource Robotics Developer 7675
+
+ -- Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>  Sat, 25 Mar 2017 15:00:00 -0000
+
+ros-indigo-tra1-description (0.5.0-0trusty) trusty; urgency=high
+
+
+
+ -- Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>  Sun, 05 Mar 2017 15:00:00 -0000
+
+ros-indigo-tra1-description (0.4.0-0trusty) trusty; urgency=high
+
+  * add CHANGELOG for tra1_ packages
+  * update CMakeLists.txt : add Relaease
+  * Contributors: Tokyo Opensource Robotics Developer 534
+
+ -- Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>  Sun, 05 Mar 2017 15:00:00 -0000
+
+ros-indigo-tra1-description (0.3.0-0trusty) trusty; urgency=high
+
+  * add limit tag, change joint type from continuous to revolute (#3 <https://github.com/tork-a/minas/issues/3>)
+  * remove world link from urdf (and others)
+  * Add README.md
+  * Add tra1_description package
+  * Contributors: Ryosuke Tajima, Tokyo Opensource Robotics Developer 534
+
+ -- Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>  Sun, 05 Mar 2017 15:00:00 -0000
+
+
