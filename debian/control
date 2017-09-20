@@ -1,0 +1,12 @@
+Source: ros-kinetic-tra1-moveit-config
+Section: misc
+Priority: extra
+Maintainer: Ryosuke Tajima <ryosuke.tajima@opensource-robotics.tokyo.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-roslaunch, ros-kinetic-rostest
+Homepage: http://moveit.ros.org/
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-tra1-moveit-config
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-joint-state-publisher, ros-kinetic-joy, ros-kinetic-moveit-kinematics, ros-kinetic-moveit-planners-ompl, ros-kinetic-moveit-ros-move-group, ros-kinetic-moveit-ros-visualization, ros-kinetic-moveit-ros-warehouse, ros-kinetic-moveit-simple-controller-manager, ros-kinetic-robot-state-publisher, ros-kinetic-rviz, ros-kinetic-tra1-description, ros-kinetic-warehouse-ros, ros-kinetic-xacro
+Description: An automatically generated package with all the configuration and launch files for using the tra1 with the MoveIt! Motion Planning Framework
