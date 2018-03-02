@@ -2,6 +2,24 @@
 Changelog for package minas_control
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.9 (2018-03-02)
+------------------
+* enable to publish actual position/velocity/torque value as /diagnostics (`#67 <https://github.com/tork-a/minas/issues/67>`_)
+* fix simple test without arguments (`#68 <https://github.com/tork-a/minas/issues/68>`_)
+* onsite fix for encoder offset(`#66 <https://github.com/tork-a/minas/issues/66>`_)
+* set default ifname to eth0
+* add try/catch in main function of test_simple.cpp, show help() when it failes to run EtherCatManager
+* display input.position_actual_value in EtherCATJointControlInterface::EtherCATJointControlInterface
+* fix wrong variable print
+* Contributors: Ryosuke Tajima, Tokyo Opensource Robotics Developer 534
+
+1.0.8 (2017-11-28)
+------------------
+* Add parameter home_encoder_offset (`#63 <https://github.com/tork-a/minas/issues/63>`_)
+* Reduce sleep time in each client (`#51 <https://github.com/tork-a/minas/issues/51>`_)
+* Add dependency on tinyxml (`#62 <https://github.com/tork-a/minas/issues/62>`_)
+* Contributors: Ryosuke Tajima
+
 1.0.6 (2017-09-12)
 ------------------
 
