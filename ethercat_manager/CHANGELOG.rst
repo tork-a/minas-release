@@ -2,6 +2,18 @@
 Changelog for package ethercat_manager
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.9 (2018-03-02)
+------------------
+* enable to publish actual position/velocity/torque value as /diagnostics (`#67 <https://github.com/tork-a/minas/issues/67>`_)
+* add EtherCatManager::getStatus
+* Contributors: Tokyo Opensource Robotics Developer 534
+
+1.0.8 (2017-11-28)
+------------------
+* fixed IF_MINAS (`#60 <https://github.com/tork-a/minas/issues/60>`_)
+  * an operator "&" seems to be missed.
+* Contributors: Cong Liu
+
 1.0.6 (2017-09-12)
 ------------------
 
