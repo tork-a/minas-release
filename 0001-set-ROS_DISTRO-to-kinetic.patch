@@ -1,0 +1,32 @@
+From e78489b4599d9523d8318ea97f64ba79ee687440 Mon Sep 17 00:00:00 2001
+From: Tokyo Opensource Robotics Developer 534
+ <534o@opensource-robotics.tokyo.jp>
+Date: Thu, 22 Feb 2018 15:37:09 +0900
+Subject: [PATCH] set ROS_DISTRO to kinetic
+
+---
+ debian/postinst | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/debian/postinst b/debian/postinst
+index d2404ec..a746537 100644
+--- a/debian/postinst
++++ b/debian/postinst
+@@ -1,6 +1,6 @@
+ #!/bin/sh
+ set -e
+-ROS_DISTRO=indigo
++ROS_DISTRO=kinetic
+ case "$1" in
+  configure)
+    echo "postinsta called to set cap_net_raw and cap_ipc_lock" >&2
+@@ -14,4 +14,4 @@ case "$1" in
+        exit 0
+    ;;
+ esac
+-#DEBHELPER#
+\ No newline at end of file
++#DEBHELPER#
+-- 
+2.7.4
+
