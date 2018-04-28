@@ -1,0 +1,27 @@
+ros-kinetic-minas (1.0.10-0jessie) jessie; urgency=high
+
+
+
+ -- Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>  Fri, 27 Apr 2018 15:00:00 -0000
+
+ros-kinetic-minas (1.0.9-0jessie) jessie; urgency=high
+
+
+
+ -- Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>  Thu, 01 Mar 2018 15:00:00 -0000
+
+ros-kinetic-minas (1.0.8-0jessie) jessie; urgency=high
+
+
+
+ -- Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>  Mon, 27 Nov 2017 15:00:00 -0000
+
+ros-kinetic-minas (1.0.6-0jessie) jessie; urgency=high
+
+  * add minas meta package(#59 <https://github.com/tork-a/minas/issues/59>)
+    * add minas meta package: CMakeLists.txt package.xml
+    * Contributors: Ryosuke Tajima, Tokyo Opensource Robotics Developer 534
+
+ -- Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>  Mon, 11 Sep 2017 15:00:00 -0000
+
+
