@@ -2,6 +2,9 @@
 Changelog for package tra1_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.10 (2018-04-28)
+-------------------
+
 1.0.9 (2018-03-02)
 ------------------
 * Set home_encoder_offset zero as default
