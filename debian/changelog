@@ -1,0 +1,111 @@
+ros-kinetic-tra1-moveit-config (1.0.10-0jessie) jessie; urgency=high
+
+
+
+ -- Ryosuke Tajima <ryosuke.tajima@opensource-robotics.tokyo.jp>  Fri, 27 Apr 2018 15:00:00 -0000
+
+ros-kinetic-tra1-moveit-config (1.0.9-0jessie) jessie; urgency=high
+
+
+
+ -- Ryosuke Tajima <ryosuke.tajima@opensource-robotics.tokyo.jp>  Thu, 01 Mar 2018 15:00:00 -0000
+
+ros-kinetic-tra1-moveit-config (1.0.8-0jessie) jessie; urgency=high
+
+  * add run_depend on moveit_fake_controller_manager
+  * Contributors: Ryosuke Tajima
+
+ -- Ryosuke Tajima <ryosuke.tajima@opensource-robotics.tokyo.jp>  Mon, 27 Nov 2017 15:00:00 -0000
+
+ros-kinetic-tra1-moveit-config (1.0.6-0jessie) jessie; urgency=high
+
+
+
+ -- Ryosuke Tajima <ryosuke.tajima@opensource-robotics.tokyo.jp>  Mon, 11 Sep 2017 15:00:00 -0000
+
+ros-kinetic-tra1-moveit-config (1.0.5-0jessie) jessie; urgency=high
+
+
+
+ -- Ryosuke Tajima <ryosuke.tajima@opensource-robotics.tokyo.jp>  Mon, 11 Sep 2017 15:00:00 -0000
+
+ros-kinetic-tra1-moveit-config (1.0.4-0jessie) jessie; urgency=high
+
+  * set license as GPLv2/CC-BY-SA,add LICENSE for meshes (#55 <https://github.com/tork-a/minas/issues/55>)
+    * set license as GPLv2/CC-BY-SA,add LICENSE for meshes
+    * cleanup code
+    * fix wrong license data, add LICENSE information to xacro files
+    * cleanup package.xml
+  * Contributors: Ryosuke Tajima, Tokyo Opensource Robotics Developer 534
+
+ -- Ryosuke Tajima <ryosuke.tajima@opensource-robotics.tokyo.jp>  Sun, 10 Sep 2017 15:00:00 -0000
+
+ros-kinetic-tra1-moveit-config (1.0.3-0jessie) jessie; urgency=high
+
+  * Add end effector to tra1_moveit_config
+  * Contributors: Ryosuke Tajima
+
+ -- Ryosuke Tajima <ryosuke.tajima@opensource-robotics.tokyo.jp>  Thu, 03 Aug 2017 15:00:00 -0000
+
+ros-kinetic-tra1-moveit-config (1.0.2-0jessie) jessie; urgency=high
+
+
+
+ -- Ryosuke Tajima <ryosuke.tajima@opensource-robotics.tokyo.jp>  Thu, 11 May 2017 15:00:00 -0000
+
+ros-kinetic-tra1-moveit-config (1.0.1-0jessie) jessie; urgency=high
+
+
+
+ -- Ryosuke Tajima <ryosuke.tajima@opensource-robotics.tokyo.jp>  Thu, 11 May 2017 15:00:00 -0000
+
+ros-kinetic-tra1-moveit-config (1.0.0-0jessie) jessie; urgency=high
+
+  * add test codes  (`#39 <https://github.com/tork-a/minas/pull/39`_)
+    * tra1_moveit_config/CMakeLists.txt: check only woking launch files
+    * tra1_moveit_config/package.xml: add more run_depends
+  * set default planner to RRTConnectkConfigDefault (`#37 <https://github.com/tork-a/minas/pull/37`_)
+  * Contributors: Tokyo Opensource Robotics Developer 534
+
+ -- Ryosuke Tajima <ryosuke.tajima@opensource-robotics.tokyo.jp>  Fri, 21 Apr 2017 15:00:00 -0000
+
+ros-kinetic-tra1-moveit-config (0.5.2-0jessie) jessie; urgency=high
+
+
+
+ -- Ryosuke Tajima <ryosuke.tajima@opensource-robotics.tokyo.jp>  Fri, 31 Mar 2017 15:00:00 -0000
+
+ros-kinetic-tra1-moveit-config (0.5.1-0jessie) jessie; urgency=high
+
+
+
+ -- Ryosuke Tajima <ryosuke.tajima@opensource-robotics.tokyo.jp>  Sat, 25 Mar 2017 15:00:00 -0000
+
+ros-kinetic-tra1-moveit-config (0.5.0-0jessie) jessie; urgency=high
+
+
+
+ -- Ryosuke Tajima <ryosuke.tajima@opensource-robotics.tokyo.jp>  Sun, 05 Mar 2017 15:00:00 -0000
+
+ros-kinetic-tra1-moveit-config (0.4.0-0jessie) jessie; urgency=high
+
+  * add CHANGELOG for tra1_ packages
+  * update CMakeLists.txt : add Relaease
+  * Contributors: Tokyo Opensource Robotics Developer 534
+
+ -- Ryosuke Tajima <ryosuke.tajima@opensource-robotics.tokyo.jp>  Sun, 05 Mar 2017 15:00:00 -0000
+
+ros-kinetic-tra1-moveit-config (0.3.0-0jessie) jessie; urgency=high
+
+  * config/tra1_controllers.yaml: add controller_manager_ns: controller_manager
+  * package.xml add moveit_simple_controller_manager
+  * config/joint_limits.yaml: enable joint_velocity_limit
+  * remove world link from urdf (and others)
+  * add config/tra1_controllers.yaml and tra1_moveit_controller_manager.launch.xml
+  * Add README.md
+  * Add tra1_moveit_config package
+  * Contributors: Ryosuke Tajima, Tokyo Opensource Robotics Developer 534
+
+ -- Ryosuke Tajima <ryosuke.tajima@opensource-robotics.tokyo.jp>  Sun, 05 Mar 2017 15:00:00 -0000
+
+
