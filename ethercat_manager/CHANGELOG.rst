@@ -2,6 +2,9 @@
 Changelog for package ethercat_manager
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.10 (2018-04-28)
+-------------------
+
 1.0.9 (2018-03-02)
 ------------------
 * enable to publish actual position/velocity/torque value as /diagnostics (`#67 <https://github.com/tork-a/minas/issues/67>`_)
