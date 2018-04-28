@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
-ROS_DISTRO=kinetic
+ROS_DISTRO=indigo
 case "$1" in
  configure)
    echo "postinsta called to set cap_net_raw and cap_ipc_lock" >&2
