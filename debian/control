@@ -1,0 +1,12 @@
+Source: ros-melodic-tra1-bringup
+Section: misc
+Priority: optional
+Maintainer: Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-roslaunch <!nocheck>, ros-melodic-rostest <!nocheck>
+Homepage: http://ros.org/wiki/tra1_bringup
+Standards-Version: 3.9.2
+
+Package: ros-melodic-tra1-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-controller-manager, ros-melodic-joint-state-controller, ros-melodic-joint-trajectory-controller, ros-melodic-minas-control, ros-melodic-position-controllers, ros-melodic-robot-state-publisher, ros-melodic-tf, ros-melodic-tra1-description, ros-melodic-tra1-moveit-config
+Description: Package contains bringup scripts/config/tools for tra1 robto
