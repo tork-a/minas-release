@@ -1,0 +1,13 @@
+Source: ros-melodic-ethercat-manager
+Section: misc
+Priority: optional
+Maintainer: Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-roscpp, ros-melodic-roslaunch <!nocheck>, ros-melodic-rostest <!nocheck>, ros-melodic-soem
+Homepage: http://ros.org/wiki/ethercat_manager
+Standards-Version: 3.9.2
+
+Package: ros-melodic-ethercat-manager
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-roscpp, ros-melodic-soem
+Description: ROS-Industrial support stack for facilitating communication with EtherCAT networks.
+ The code is mainly copied from https://github.com/ros-industrial/robotiq/blob/jade-devel/robotiq_ethercat/src/ethercat_manager.cpp
