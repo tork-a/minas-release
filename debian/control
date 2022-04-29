@@ -1,0 +1,12 @@
+Source: ros-melodic-minas
+Section: misc
+Priority: optional
+Maintainer: Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://ros.org/wiki/minas
+Standards-Version: 3.9.2
+
+Package: ros-melodic-minas
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-ethercat-manager, ros-melodic-minas-control, ros-melodic-tra1-bringup, ros-melodic-tra1-description, ros-melodic-tra1-moveit-config
+Description: Meta package for minas for PANASONIC MINAS EtherCAT Motor Driver Control System
