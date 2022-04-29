@@ -1,3 +1,32 @@
+## minas (melodic) - 1.0.10-1
+
+The packages in the `minas` repository were released into the `melodic` distro by running `/usr/bin/bloom-release minas --rosdistro melodic` on `Fri, 29 Apr 2022 04:14:13 -0000`
+
+These packages were released:
+- `ethercat_manager`
+- `minas`
+- `minas_control`
+- `tra1_bringup`
+- `tra1_description`
+- `tra1_moveit_config`
+
+Version of package(s) in repository `minas`:
+
+- upstream repository: https://github.com/tork-a/minas
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.10-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.1`
+- catkin_pkg version: `0.4.24`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## minas (kinetic) - 1.0.10-0
 
 The packages in the `minas` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release minas --track kinetic --rosdistro kinetic` on `Sat, 28 Apr 2018 06:30:06 -0000`
