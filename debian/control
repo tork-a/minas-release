@@ -1,0 +1,13 @@
+Source: ros-melodic-tra1-description
+Section: misc
+Priority: optional
+Maintainer: Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-roslaunch <!nocheck>, ros-melodic-rostest <!nocheck>, ros-melodic-xacro
+Homepage: http://ros.org/wiki/tra1_description
+Standards-Version: 3.9.2
+
+Package: ros-melodic-tra1-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-joint-state-publisher, ros-melodic-robot-state-publisher, ros-melodic-rviz, ros-melodic-tf, ros-melodic-xacro
+Description: This package contains the description (mechanical, kinematic, visual, etc.) of the TRA1 robot.
+ The files in this package are parsed and used by a variety of other components. Most users will not interact directly with this package.
